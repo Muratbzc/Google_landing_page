@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding-top: 15px;
+}
+
+
+
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+
+.right a{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+
+.left a{
+    /* display: inline-block; */
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+#sign{
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 60px;
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+#google{
+    width: 270px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.searchbar {
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+#search {
+    height: 40px;
+    width: 460px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+}
+
+
+#glass {
+    height: 30px;
+    position: relative;
+    top: 10px;
+    right: 445px;
+}
+
+
+#mic{
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 70px;
+}
+
+.button{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.button input{
+    height: 36px;
+    width: 120px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    margin-right: 8px;
+}
+
+.language{
+    text-align: center;
+    margin-top: 30px;
+    font-size: small;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+}
+
+.tr{
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 20px;
+    color: #5f6368;
+    font-size: 13px;
+
+}
+
+
+.fright{
+    float: right;
+}
+
+.fleft{
+    float: left;
+}
+
+.fleft a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 13px;
+
+
+}
+
+.fright a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 13px;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+#search:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button input:hover{
+    border: 1px solid #5f636849;
+}
+
+#sign:hover{
+    text-decoration: none;
+}
+
+#app{
+    opacity: 0.5;
+}
