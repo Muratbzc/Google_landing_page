@@ -8,4 +8,7 @@ Project aims to create google landing page.
 ![Project 002 Snapshot](Project_002_.png)
 
 
-<button><a href="https://muratbzc.github.io/Google_landing_page/</a></button>
+
+<button><a href="https://muratbzc.github.io/Google_landing_page/">Go To Web Site</a></button>
+
+
